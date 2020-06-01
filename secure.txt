@@ -1,0 +1,9 @@
+sql
+uxuYJPyHwh48Gx9X
+
+sec salt
+OSSL.Fd9g9QYQpVgJDpWNIJkPLDn1RsZsCnHPGHb+1+u9vKVD9tcDkfQXR8jdSL9suOZogFpUTt2NUwkXyok5f8em5An4Y4sg5mk3h82RxxpC4x+Udd6xQ1XvcXjove7agpAqQcyvVARYG9NlDp4ImHQmbt40+u7kbi38H7fpb5FUp3g=
+
+sec hash
+
+OSSL.F9CZGZ/OLnCPFFaer/GSWAz/wgtQjtgks8I7B8+aX18cAG7xsdnTyIQVZ1EEBzKMSQFLWzeLyuZxdLkoOWCqnCgY3tPvaC1rt85nke9Biuek93EfGJWdSSQwzQ+SEmBoZfIdaT6ffE4gL3Uq9o5uzWFey3+u27lqy7WVI0vbDN8=

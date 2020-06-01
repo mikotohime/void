@@ -1,0 +1,175 @@
+
+* {
+  padding:0;
+  margin: 0;
+}
+
+*, 
+*:before, 
+*:after {
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box;
+}
+
+/* Typography */
+body {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 300;
+  color: #FF0000;
+   -webkit-font-smoothing: antialiased;
+}
+
+header {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+header p {
+  letter-spacing: 10px;
+  font-weight: 140;
+}
+
+.blink-1 {
+  animation-name: blink;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 3em; /* 48/16 */
+  margin-bottom: 40px;
+  line-height: 1em;
+    transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+h1:hover {
+	opacity: 0.3;
+	color: #330300;	
+}	
+
+p {
+  line-height: 1.75em;
+}
+
+.about p:nth-of-type(1) { 
+  font-size: 1em; /* 24/16 */
+  line-height: 1em;
+}
+
+
+
+.about p {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+footer p {
+  text-align: center;
+  font-size: 0.625em; /* 10/16 */
+}
+
+small {
+  text-align: center;
+}
+
+strong {
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 400;
+  color: #330300;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #660600;
+}
+
+
+.social a {
+  opacity: 0.5;
+  transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.social a:hover {
+  opacity: 1;
+}
+
+.social li {
+  display: inline;
+  margin: 1px;
+  color: #0;
+}
+
+/* Images */
+
+.background {
+   /* Delete background class from <body> for a vanilla style */
+   background: url(../images/background.jpg) top center no-repeat;
+}
+
+img.avatar {
+  margin-bottom: 30px;
+  border-radius: 50%;
+  width: 125px;
+  height: 125px;
+  margin-top: -62.5px;
+}
+
+.social li img {
+  width: 50px;
+}
+
+
+
+.social {
+  margin-top: 60px;
+  text-align: center;
+}
+
+
+/* Responsive Styles */
+
+@media only screen and (min-width: 1920px) {
+  .background {
+    background-size: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+
+  h1 {
+    font-size: 2.25em; /* 36/16 */
+    margin-bottom: 20px;
+  }
+
+  .social {
+    margin-top: 20px;
+  }
+
+  .about p {
+    text-align: left;
+    padding-bottom: 15px;
+  }
+  
+  .about p:nth-of-type(1) { 
+    font-size: 1.25em; /* 20/16 */
+    text-align: center;
+  }
+}
